@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media= "screen"/>
+	<title>Cadastro</title>
+</head>
+
+<body>
+
+	<div>
+		<a href="Sobrenos.html" style="text-decoration:none"><button class="bt1"><b>Sobre Nós</b></button></a>
+		<a href="top10.html" style="text-decoration:none"><button class="bt1"><b>TOP10</b></button></a>
+		<a href="Contato.html" style="text-decoration:none"><button class="bt1"><b>Contato</b></button></a>
+		<a href="login.html" style="text-decoration:none"><button class="bt1"><b>LOGIN</b></button></a>
+	</div>
+
+    <div>
+		<input class="barra" type="search" placeholder="Busque seu lugar aqui">
+		<button class="btbusca">Ir</button>
+	</div><br><br>
+
+		<form name="forcadastro">
+            <h2 style="font-family: candara; font-weight: bold;"> Vem contar sua história pra gente!</h2><br>
+            <label>Nome</label><br>
+			<input class="formcadastro" type="text" placeholder="Insira seu nome" required><br><br>
+            <label>Email</label><br>
+			<input class="formcadastro" type="text" placeholder="Insira seu email" required><br><br>
+            <label>Celular</label><br>
+            <input class="formcadastro" type="text" placeholder="Insira seu telefone" required><br><br>
+            <label>Crie uma senha</label><br>
+            <input class="formcadastro" type="text" placeholder="Crie sua senha" name="senha1" id="senha1" required><br><br>
+            <label>Confirme sua senha</label><br>
+            <input class="formcadastro" type="text" placeholder="Repita sua senha"  name="senha2" id="senha2" required><br>
+	    	<input type="submit" onclick="return validar()" style="margin-top: 20px;" class="btn btn-warning" value="Cadastre-se"></button><br>
+        </form>
+
+		<script src="JS/script.js"></script>
+</body>
+</html>

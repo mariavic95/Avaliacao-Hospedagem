@@ -1,0 +1,115 @@
+body {
+    background-color: #696969;
+    text-align: center;
+    padding: 10px;
+}
+
+div {
+    display: inline-block;
+}
+
+.bt1 {
+    font-family:candara; padding: 5px 10px; margin: 10px; border: 0px solid gray; background:none; color: black; border-radius: 20px 0px;
+}
+.bt1:hover {
+    cursor: pointer;
+    font-family:candara;
+    padding: 5px 10px; 
+    margin: 10px; 
+    border: 0px solid rgb(40, 39, 39); 
+    background: #1f1e1e; 
+    color: #f2ea05; 
+    border-radius: 20px 0px;
+}
+
+.btbusca{
+    cursor: pointer;
+    font-family: candara;
+    color: #eae9b7;
+    border: none;
+    border-radius: 10px 5px 10px 5px;
+    background-color: rgb(46, 46, 36);
+}
+
+.barra {
+    font-family: candara;
+    color: #f2ee7c;
+    border: none;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(27, 27, 22);
+    border-radius: 20px 0px;
+}
+
+.barra::placeholder{
+    color: #7c7c7c;
+}
+
+.img1 {margin-top: 30px; margin-right: 30px}
+
+.bloco1 {margin-right:20px; float: right;  position: relative; margin-top: -400px}
+
+.img2 {
+    margin-left: 20px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.bloco2 {
+    margin-right:100px; 
+    float: right;  
+    margin-top: 80px;
+}
+
+.redes,.insta, .face, .tt, .yt {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.insta:hover {cursor: pointer; transform: scale(1.5)} 
+.face:hover {cursor: pointer; transform: scale(1.5)}
+.tt:hover {cursor: pointer; transform: scale(1.5)}
+.yt:hover {cursor: pointer; transform: scale(1.5)}
+
+.tituloredes, .telalogin{
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+.barralogin{
+    text-align: center;
+    font-family: candara;
+    color: #d7d77e;
+    border: none;
+    font-style: italic;
+    background-color: rgb(15, 15, 14);
+    border-radius: 20px 20px;
+}
+.barralogin::placeholder{
+    color: #e6e6c3;
+}
+.barrasenha{
+    text-align: center;
+    font-family: candara;
+    color: #d7d77e;
+    border: none;
+    font-style: italic;
+    background-color: rgb(13, 13, 12);
+    border-radius: 20px 20px;
+}
+.barrasenha::placeholder{
+    color: #e6e6c3;
+}
+.formcadastro{
+    text-align: center;
+    font-family: candara;
+    color: #d7d77e;
+    border: none;
+    font-style: italic;
+    background-color: rgb(13, 13, 12);
+    border-radius: 20px 20px;
+}
+.formcadastro::placeholder{
+    color: #e6e6c3;
+}
+
